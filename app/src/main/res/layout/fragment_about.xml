@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".About">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="@string/about"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView" android:layout_weight="0.5"
+                android:gravity="center|top" android:paddingTop="30dp" android:paddingLeft="10dp"
+                android:paddingRight="10dp" android:background="@color/colorAccent"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_weight="0.5" android:gravity="center"
+                android:paddingRight="30dp" android:paddingLeft="30dp">
+            <Button
+                    android:text="أختر نوع المشاركة"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/share_btn"
+                    android:drawableStart="@android:drawable/ic_menu_share" android:background="@drawable/btn_style"
+                    android:textColor="#fff" android:padding="7dp" android:textSize="18sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

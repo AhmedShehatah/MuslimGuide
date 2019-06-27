@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دليل المسلم</string>
+    <string name="imageview">ImageView</string>
+    <string name="ATHKAR">أذكار المسلم</string>
+    <string name="aedia">أدعية</string>
+    <string name="counter">السبحة</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">مشاركة</string>
+    <string name="count_statement">عدد التسبيحات حتى الان</string>
+    <string name="athkar_elmoslim">أذكار المسلم</string>
+    <string name="morning_athkar">أذكار الصباح</string>
+    <string name="evening_athkar">أذكار المساء</string>
+    <string name="wake_up_athkar">أذكار الاستيقاظ</string>
+    <string name="sleep_athkar">أذكار النوم</string>
+    <string name="wodoo_athkar">أذكار الوضوء</string>
+    <string name="home_athkar">أذكار المنزل</string>
+    <string name="athan_athkar">أذكار الأذان</string>
+    <string name="mosque_athkar">أذكار المسجد</string>
+    <string name="after_prayer_athkar">أذكار بعد الصلاة</string>
+    <string name="adiea">الأدعية</string>
+    <string name="estikara_prayer_doaa">دعاء صلاة الاستخارة</string>
+    <string name="grief">دعاء الهم والحزن</string>
+    <string name="traveling">دعاء السفر</string>
+    <string name="anger">دعاء الغضب</string>
+    <string name="eanterin_market">دعاء دخول السوق</string>
+    <string name="eating_athkar">أذكار الطعام</string>
+    <string name="about">شارك التطبيق مع من تعرف حتى يصبح لك صدقة جارية خاصة بك! بحيث يحمله آلاف الناس من بعدك!</string>
+    <string name="beginning">دعاء الاستفتاح</string>
+    <string name="master_of_estikfar">سيد الاستغفار</string>
+    <string name="kfart_almajlis">كفارة المجلس</string>
+
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/thker_bkackground"
+        android:layout_height="wrap_content">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@drawable/thker_bkackground">
+        <TextView
+                android:id="@+id/thker_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/counter_shape"
+                android:layout_gravity="right"
+                android:padding="5dp"
+                android:text="0"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_marginBottom="15dp"
+        />
+        <TextView
+                android:id="@+id/thker_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bla vla bla"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"
+                app:fontFamily="casual"/>
+        <TextView
+                android:id="@+id/share"
+                android:text="مشاركة"
+                android:layout_gravity="right"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:id="@+id/TextSize"
+                android:visibility="gone"
+        />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

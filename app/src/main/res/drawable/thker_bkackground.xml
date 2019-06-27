@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <gradient
+                    android:startColor="@color/thker_background"
+                    android:centerColor="@color/thker_background"
+                    android:endColor="@color/thker_background"
+            />
+            <corners
+
+            />
+        </shape>
+
+
+    </item>
+    <item>
+        <shape>
+            <gradient
+                    android:startColor="#FFFDFD"
+                    android:centerColor="#FFFDFD"
+                    android:endColor="#FFFDFD"
+            />
+            <corners
+                    android:radius="10dp"
+            />
+        </shape>
+
+    </item>
+
+</selector>

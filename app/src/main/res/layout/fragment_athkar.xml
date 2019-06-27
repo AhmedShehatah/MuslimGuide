@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".athkar">
+
+
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+        <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TextView
+                    android:gravity="center"
+                    android:textSize="34sp"
+                    android:textColor="#fff"
+                    android:background="#0F4E80"
+                    android:text="@string/athkar_elmoslim"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/actionBarSize"/>
+
+            <Button
+                    android:id="@+id/morning_athkar"
+                    android:text="@string/morning_athkar"
+                    style="@style/btn_athkar_style"/>
+
+            <Button
+                    android:id="@+id/evening_athkar"
+                    android:text="@string/evening_athkar"
+                    style="@style/btn_athkar_style"/>
+
+            <Button
+                    android:id="@+id/wakeup_athkar"
+                    android:text="@string/wake_up_athkar"
+                    style="@style/btn_athkar_style"/>
+
+            <Button
+                    android:id="@+id/sleeping_athkar"
+                    android:text="@string/sleep_athkar"
+                    style="@style/btn_athkar_style"/>
+
+            <Button
+                    android:id="@+id/wodoo_athkar"
+                    android:text="@string/wodoo_athkar"
+                    style="@style/btn_athkar_style"/>
+
+            <Button
+                    android:id="@+id/home_athkar"
+                    android:text="@string/home_athkar"
+                    style="@style/btn_athkar_style"/>
+            <Button
+                    android:id="@+id/eating_athkar"
+                    android:text="@string/eating_athkar"
+                    style="@style/btn_athkar_style"/>
+
+            <Button
+                    android:id="@+id/athan_athkar"
+                    android:text="@string/athan_athkar"
+                    style="@style/btn_athkar_style"/>
+
+            <Button
+                    android:id="@+id/mosque_athkar"
+                    android:text="@string/mosque_athkar"
+                    style="@style/btn_athkar_style"/>
+
+            <Button
+                    android:id="@+id/afterprayer_athkar"
+                    android:text="@string/after_prayer_athkar"
+                    style="@style/btn_athkar_style"
+                    android:layout_marginBottom="16dp"
+            />
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</FrameLayout>
